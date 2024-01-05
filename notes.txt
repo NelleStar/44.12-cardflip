@@ -1,0 +1,8 @@
+1) App.js - rendering 1 CardTable component =>
+    2) CardTable.js - renders 1 PlayingCardList and 1 PokeDex =>
+        3a) PlayingCardList - button with an onClick to add card and renders PlayingCards using map - axios call here - refactor to useAxios
+            4) PlayingCard - renders a single playing card - flipCard here! - refactor to useFlip
+        3b) PokeDex - renders PokemonSelect and PokemonCard - axios call here - refactor to useAxios
+            4a) PokemonSelect - generates a list of pokemon from pokemonList
+                5) pokemonList.js - array of pokemon names for PokemonSelect component
+            4b) PokemonCard - renders a single playing card - flipCard here - refactor to useFlip
